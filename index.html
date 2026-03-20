@@ -60,7 +60,7 @@
 
         <!-- zdjecie w tle - tylko mobile -->
         <div class="md:hidden absolute inset-0">
-            <img src="hero.webp" alt="" class="w-full h-full object-cover">
+            <img fetchpriority=high src="hero.webp" alt="" class="w-full h-full object-cover">
             <div class="absolute inset-0" style="background: rgba(10, 15, 26, 0.82);"></div>
         </div>
 
@@ -124,7 +124,7 @@
             <!-- Prawa strona - zdjęcie tylko desktop -->
             <div class="hidden md:block flex-1 min-w-0 w-full">
                 <div class="relative rounded-lg overflow-hidden border border-border">
-                    <img src="hero.webp" alt="Narzędzia przemysłowe" class="w-full h-96 object-cover">
+                    <img fetchpriority="high" src="hero.webp" alt="Narzędzia przemysłowe" class="w-full h-96 object-cover">
                     <div class="absolute inset-0" style="background: linear-gradient(to right, #0a0f1a 0%, transparent 40%);"></div>
                 </div>
             </div>
