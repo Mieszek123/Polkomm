@@ -190,6 +190,9 @@
   }
 }
 @layer utilities {
+  .visible {
+    visibility: visible;
+  }
   .absolute {
     position: absolute;
   }
@@ -403,9 +406,6 @@
   }
   .bg-card {
     background-color: var(--color-card);
-  }
-  .bg-muted {
-    background-color: var(--color-muted);
   }
   .bg-navy {
     background-color: var(--color-navy);
