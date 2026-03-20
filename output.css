@@ -413,6 +413,9 @@
   .bg-transparent {
     background-color: transparent;
   }
+  .bg-white {
+    background-color: var(--color-white);
+  }
   .object-cover {
     object-fit: cover;
   }
