@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+
+@layer base {
+    body {
+        font-family: var(--font-sans);
+    }
+}
+
+
 @theme {
   --color-navy:       #0a0f1a;
   --color-card:       #111827;
@@ -7,4 +15,6 @@
   --color-blue:       #1a6fd4;
   --color-blue-light: #4a9eff;
   --color-muted:      #6b7a99;
+  --font-sans: 'Inter', sans-serif;
 }
+
