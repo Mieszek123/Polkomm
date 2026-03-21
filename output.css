@@ -394,12 +394,25 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
   }
+  .border-l-2 {
+    border-left-style: var(--tw-border-style);
+    border-left-width: 2px;
+  }
   .border-none {
     --tw-border-style: none;
     border-style: none;
   }
   .border-border {
     border-color: var(--color-border);
+  }
+  .border-l-blue {
+    border-left-color: var(--color-blue);
+  }
+  .bg-\[\#0d1526\] {
+    background-color: #0d1526;
+  }
+  .bg-\[\#060c16\] {
+    background-color: #060c16;
   }
   .bg-blue {
     background-color: var(--color-blue);
